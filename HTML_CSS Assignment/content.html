@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<!-- HTML/CSS Assignment-->
+<!-- Candis Pike--> 
+<!-- CS 290 Fall 2015--> 
+<html>
+	<head>
+	<meta charset ="UTF-8">
+	<title>HTML/CSS Assignment </title>
+	<link rel ="stylesheet" href = "style.css" type = "text/css">
+	</head>
+
+	<body>
+		<!-- Section 1 of assignment: table -->
+		<div>
+			<table>
+				<caption>
+					Days of the Work Week to Eat Sweets
+				</caption>
+				<thead>
+					<tr>
+						<th></th>
+						<th>MONDAY</th>
+						<th>TUESDAY</th>
+						<th>WEDNESDAY</th>
+						<th>THURSDAY</th>
+						<th>FRIDAY</th>
+					</tr>
+				</thead>	
+				<!-- Footers-->
+				<tfoot>
+					<tr>
+						<td colspan ="2"> The cake is a lie. </td>
+						<td colspan ="4"> There is always room for chocolate. </td>
+					</tr>
+				</tfoot>
+				<tbody>
+					<!--first Row-->
+					<tr>
+						<th class="col_head">Cake</th>
+						<td>yes</td>
+						<td>no</td>
+						<td>yes</td>
+						<td>no</td>
+						<td>yes</td>
+					</tr>
+					<!-- Second Row-->
+					<tr>
+						<th class="col_head">Pie</th>
+						<td>no</td>
+						<td>yes</td>
+						<td>no</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+					<!--Thrid Row-->
+					<tr>
+						<th class="col_head">Cookies</th>
+						<td>yes</td>
+						<td>no</td>
+						<td>yes</td>
+						<td>no</td>
+						<td>yes</td>
+					</tr>
+					<!--Fourth Row-->
+					<tr>
+						<th class="col_head">Brownies</th>
+						<td>yes</td>
+						<td>no</td>
+						<td>yes</td>
+						<td>no</td>
+						<td>yes</td>
+					</tr>
+					<!--Fifth Row-->
+					<tr>
+						<th class="col_head">Chocolate</th>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+						<td>yes</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<!--Section 2: create a list of 3 items-->
+		<div>
+			<ul>
+				<li> Favorite Cake 
+					<ul>
+						<li> Chocolate</li>
+					</ul>
+				</li>	
+				<li>Favorite Pie
+					<ul>
+						<li> Apple</li>
+					</ul>
+				</li>
+				<li>Favorite Cookie
+					<ul>
+						<li>Gingersnap </li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!--Section 3: nested div-->
+		<div class="outer-content">
+			<div class="inner-content"> 
+				<p> Chocolate rules! </p>
+			</div>
+		</div>
+		<!--Section 4: get form-->
+		<div>
+			<form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php " method = "get">
+				<fieldset>
+					<legend>
+						Get Version
+					</legend>
+				<label>
+					Name: 
+					<input type ="text" name="text_input" size="15" maxlength="30"/>
+				</label>
+				<br/>
+				<label>
+					Number Code:
+					<input type ="number" name="numerical_input"/>
+				</label>
+				<br/>
+				<label>
+					Password:
+					<input type ="password" name="password_input" required="required"/>
+				</label>
+				<br/>
+				<p class="choice-look">
+					Please chose one of the following candies:
+				<br>
+					<label> 
+						<input type ="radio" name="candy" value="Snickers"/>
+						Snickers
+					</label>
+					<br/>
+					<label>
+						<input type ="radio" name="candy" value="Skittles"/>
+						Skittles
+					</label>
+					<br/>
+					<label>
+						<input type ="radio" name="candy" value="Mentos"/>
+						Mentos
+					</label>
+				</p>	
+				<br/>
+					<input type ="submit" value="Submit"/>
+				</fieldset>
+			</form>
+		</div>		
+		<!--Section 5: post form-->
+				<div>
+			<form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php " method = "post">
+				<fieldset>
+					<legend>
+						Post Version
+					</legend>
+				<label>
+					Name: 
+					<input type ="text" name="text_input" size="15" maxlength="30"/>
+				</label>
+				<br/>
+				<label>
+					Number Code:
+					<input type ="number" name="numerical_input"/>
+				</label>
+				<br/>
+				<label>
+					Password:
+					<input type ="password" name="password_input" required="required"/>
+				</label>
+				<br/>
+				<p class="choice-look">
+					Please chose one of the following candies:
+				<br/>
+					<label> 
+						<input type ="radio" name="candy" value="Snickers"/>
+						Snickers
+					</label>
+					<br/>
+					<label>
+						<input type ="radio" name="candy" value="Skittles"/>
+						Skittles
+					</label>
+					<br/>
+					<label>
+						<input type ="radio" name="candy" value="Mentos"/>
+						Mentos
+					</label>
+				</p>	
+				<br/>
+					<input type ="submit" value="Submit"/>
+				</fieldset>
+			</form>
+		</div>	
+	</body>
+</html>
+	

@@ -1,0 +1,56 @@
+/*tabble styling*/
+table{ width: 600px;
+	  text-align:center;
+}
+
+th, td{
+	padding: 5px, 5px, 5px, 5px;
+	border: 1px solid black;
+}
+
+.col_head{
+		font-style: italic;
+		font-weight:normal;
+}
+
+tbody  > tr:nth-of-type(2n){
+	background-color: #dda0dd;
+}
+
+tbody > tr:nth-of-type(2n+1){
+	background-color: #7fffd4;
+}
+
+/*nested div styling*/
+.outer-content{
+	float:left;
+	width: 75%;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:20px;
+	background-color: pink;	
+}
+
+.inner-content{
+	position:relative;
+	margin:auto;
+	width:75%;
+	text-align:center;
+	background-color: blue;
+	color:white;
+}
+
+
+/*form formatting*/
+form{
+	clear:left;
+}
+
+.choice-look{
+		color:blue;
+}
+
+label {
+	display: block;
+	}
+
