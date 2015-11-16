@@ -1,0 +1,64 @@
+body{
+	background-color: linen;
+}
+.top{
+	font-family: impact, fantasty;
+	color: orange;
+	font-size:40px;
+}
+
+.explain{
+	font-size: 30px;
+	color:blue;
+}
+#loc, #zip, #textSub{
+	font-size:14px;
+	background-color: darkorange;
+	border-radius: 12px;
+}
+
+legend{
+	background-color:black;
+	font-size: 15px;
+	color: white;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 10px 10px;
+	text-align: left;
+}
+
+fieldset{
+	width: 600px;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 15px;
+	text-align: left;
+}
+
+.bullet	{
+	color: #3C5057;
+	font-size: 19px;
+	text-decoration: underline;
+}
+
+#city{
+	font-size: 24px;
+	font-weight: bold;
+	color:#DE451B;
+	padding-left: 12px;
+}
+#temp{
+	font-size:22px;
+	color:#DE451B;
+	padding-left: 12px;
+}
+#humid{
+	font-size:22px;
+	color:#DE451B;
+	padding-left: 12px;
+	
+}
+
+#stuff{
+	font-size: 22px;
+}
